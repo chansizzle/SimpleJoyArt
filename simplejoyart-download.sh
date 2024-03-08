@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Directory to save downloaded images
+download_dir="/ADD/DIRECTORY/STRUCTURE/HERE/SimpleJoyArt"
+
+# Create the download directory if it doesn't exist
+mkdir -p "$download_dir"
+
+# Log file for download errors
+download_errors_log="$download_dir/_1download_errors.log"
+
 # Array containing the list of image URLs
 image_urls=(
 "https://upload.wikimedia.org/wikipedia/commons/1/12/Napoleon_III_-_Boutibonne_1856.jpg"
@@ -926,17 +935,7 @@ image_urls=(
 "https://upload.wikimedia.org/wikipedia/commons/e/e3/Francisco_de_Zurbar%C3%A1n_-_Still-life_with_Lemons%2C_Oranges_and_Rose_-_WGA26062.jpg"
 "https://upload.wikimedia.org/wikipedia/commons/b/b4/La_Virgen_ni%C3%B1a_en_%C3%A9xtasis%2C_por_Francisco_de_Zurbar%C3%A1n.jpg"
 "https://upload.wikimedia.org/wikipedia/commons/3/35/La_casa_de_Nazaret%2C_por_Zurbar%C3%A1n.jpg"
-
 )
-
-# Directory to save downloaded images
-download_dir="/home/flowbiz/Pictures/SimpleJoyArt"
-
-# Create the download directory if it doesn't exist
-mkdir -p "$download_dir"
-
-# Log file for download errors
-download_errors_log="$download_dir/_1download_errors.log"
 
 # Loop through each URL in the array and download the image
 for url in "${image_urls[@]}"; do
@@ -963,6 +962,4 @@ if [[ -s "$download_errors_log" ]]; then
 else
   echo "All images downloaded successfully."
 fi
-
-
 
