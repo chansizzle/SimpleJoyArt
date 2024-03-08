@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# Directory to save downloaded images
-download_dir="/ADD/DIRECTORY/STRUCTURE/HERE/SimpleJoyArt"
+# Directory to save downloaded images.
+# include the directory location and the name of the directory `SimpleJoyArt` to hold the images
+download_dir="/DIRECTORY/STRUCTURE/HERE/SimpleJoyArt"
 
 # Create the download directory if it doesn't exist
 mkdir -p "$download_dir"
