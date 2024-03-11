@@ -3,7 +3,7 @@ download public domain images
 
 ### as of March 8 2024
 - [X] script on linux: `simplejoyart-download.sh`
-- [ ] script on windows: not created yet
+- [ ] script on windows: `simplejoyart-download.ps1`
 - [X] 924 images
 - [X] 5.2 GB
 ---
