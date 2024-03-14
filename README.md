@@ -27,24 +27,52 @@ download public domain images
 
 ### Linux
 
-`download_dir="/DIRECTORY/STRUCTURE/HERE/SimpleJoyArt"`
+1. download `simplejoyart-download.sh`
+2. (from command line) change to the directory where you have saved the script example `cd /home/fancy/scripts`
+3. edit the script by changing `download_dir="/DIRECTORY/STRUCTURE/HERE/SimpleJoyArt"` to your desired location. example: `download_dir="/home/wom bat/Pictures/SimpleJoyArt"`
+4. save and close the script
+5. make the script executable
+```
+chmod +x simplejoyart-download.sh
+```
+6. execute the script
+```
+./simplejoyart-download.sh
+```
 
-`download_dir="/home/wom bat/Pictures/SimpleJoyArt"`
+The `SimpleJoyArt` directory is created and the images are downloaded into this directory.
+Some files fail to download for unknown reasons. It is possible for some links to no longer be valid. As you end up with repeatedly failures, manually check some of the URLs to see if they still work manually.
+
+7. Open the failures log file within the SimpleJoyArt directory (the name is specified in the script)
+8. Copy the contents of the failures log file
+9. edit the script by replacing **all** of the image links with the contents copied from the failures log file.
+10. save and close the script
+11. delete the failures log file
+12. run the script again
+13. repeat steps 7-12 until all files have downloaded
+ 
 
 
 
 ### Windows
 
-`$download_dir = "C:\DIRECTORY\STRUCTURE\HERE\SimpleJoyArt"`
-
-`$download_dir = "C:\Users\wom bat\Pictures\SimpleJoyArt"`
-
-
-```
-cd "C:\Users\wom bat\Pictures\SimpleJoyArt"
-```
-
-
+1. download `simplejoyart-download.ps1`
+2. edit the script by changing `$download_dir = "C:\DIRECTORY\STRUCTURE\HERE\SimpleJoyArt"` to your desired location. example: `$download_dir = "C:\Users\wom bat\Pictures\SimpleJoyArt"`
+4. save and close the script
+5. open Powershell from the start menu (press the start button and start typing the name. when you see Powershell, right-click on it and select **Run as Administrator**)
+6. (from powershell command line) change to the directory where you have saved the script. example `cd "C:\Users\wom bat\scripts"` (enclose the directory structure in quotes if there are any spaces in the directory string)
+7. run the script
 ```
 PowerShell.exe -ExecutionPolicy Bypass -File .\simplejoyart-download.ps1
 ```
+
+The `SimpleJoyArt` directory is created and the images are downloaded into this directory.
+Some files fail to download for unknown reasons. It is possible for some links to no longer be valid. As you end up with repeatedly failures, manually check some of the URLs to see if they still work manually.
+
+8. Open the failures log file within the SimpleJoyArt directory (the name is specified in the script)
+9. Copy the contents of the failures log file
+10. edit the script by replacing **all** of the image links with the contents copied from the failures log file.
+11. save and close the script
+12. delete the failures log file
+13. run the script again
+14. repeat steps 7-12 until all files have downloaded
