@@ -2,11 +2,11 @@
 Download public domain images from the Simple Joy Art spreadsheet
 
 ## Purpose
-The purpose of this project is to download all of the artwork that Simple Joy Art has published in a spreadsheet. Should the images no longer be available online, you will have your own copy to use for viewing as you desire. Once downloaded, the images can be used for any number of purposes, such as:
+The purpose of this project is to download all of the artwork that Simple Joy Art has published in a spreadsheet. Should the images no longer be available online, you will have your own copy to use for viewing as you desire. Having a local copy is faster to access than accessing through the URLs/links. Once downloaded, the images can be used for any number of purposes, such as:
 
-- computer backgrounds/wallpaper
-- viewing on a television or other visual appliance
-- website
+- :computer: computer backgrounds/wallpaper
+- :tv: viewing on a television or other visual appliance
+- 👩‍💻 website
 
 ### as of March 8 2024
 - [X] script on linux: `simplejoyart-download.sh`
