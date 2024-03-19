@@ -20,10 +20,12 @@ download public domain images from the Simple Joy Art spreadsheet
   4. rerun the script
 
 ### Linux
+(multiple successes, 1 failure)
 ![Screenshot from 2024-03-08 14-32-41](https://github.com/chansizzle/SimpleJoyArt/assets/14916599/b1507630-e2b3-4578-a3ca-132e00a000db)
 
 
 ### Windows
+(multiple successes, 1 failure)
 ![Screenshot 2024-03-11 120802](https://github.com/chansizzle/SimpleJoyArt/assets/14916599/545b72bc-5048-45f3-8e39-00d3e1ebba76)
 
 ---
