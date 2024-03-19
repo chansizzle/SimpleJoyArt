@@ -66,7 +66,7 @@ Some files fail to download for unknown reasons. It is possible for some links t
 2. edit the script by changing `$download_dir = "C:\DIRECTORY\STRUCTURE\HERE\SimpleJoyArt"` to your desired location. example: `$download_dir = "C:\Users\wom bat\Pictures\SimpleJoyArt"`
 4. save and close the script
 5. open Powershell from the start menu (press the start button and start typing the name. when you see Powershell, right-click on it and select **Run as Administrator**)
-6. (from powershell command line) change to the directory where you have saved the script. example `cd "C:\Users\wom bat\scripts"` (enclose the directory structure in quotes if there are any spaces in the directory string)
+6. (from powershell command line) change to the directory where you have saved the script. example `cd "C:\Users\wom bat\scripts"` (enclosing the directory structure in quotes is required if there are any spaces in the directory string)
 7. run the script
 ```
 PowerShell.exe -ExecutionPolicy Bypass -File .\simplejoyart-download.ps1
