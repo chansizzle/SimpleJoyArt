@@ -14,7 +14,7 @@ download public domain images from the Simple Joy Art spreadsheet
 - :notebook: Failed downloads are added to the failures log file, specified near the top of the script.
 - :closed_book: Failed downloads will be for multiple reasons. There will be many failures with unknown causes. Legitimate failures are when the URL is no longer valid - renamed, removed, misspelled.
 - :notebook_with_decorative_cover: Try downloading the list of failed files again. To do so,
-- 1. copy the list of failed downloads from the failures log file
+  1. copy the list of failed downloads from the failures log file
   2. replace the list of URLs in the script with the copied list
   3. delete the failure log (or rename it) so you do not append the next iteration of failures to the existing list
   4. rerun the script
