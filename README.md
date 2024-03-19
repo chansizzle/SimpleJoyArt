@@ -8,7 +8,7 @@ The purpose of this project is to download all of the artwork that Simple Joy Ar
 - :tv: viewing on a television or other visual appliance
 - 👩‍💻 website
 
-These images are not categorized for the Libraries of Hope montly rotations. That would be an new set of scripts to do capture the monthly rotations. 
+These images are not categorized for the Libraries of Hope monthly rotations. That would be an new set of scripts to do capture the monthly rotations. 
 
 ### as of March 8 2024
 - [X] script on linux: `simplejoyart-download.sh`
