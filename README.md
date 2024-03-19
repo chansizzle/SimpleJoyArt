@@ -47,7 +47,7 @@ chmod +x simplejoyart-download.sh
 ```
 
 The `SimpleJoyArt` directory is created and the images are downloaded into this directory.
-Some files fail to download for unknown reasons. It is possible for some links to no longer be valid. As you end up with repeatedly failures, manually check some of the URLs to see if they still work manually.
+Some files fail to download for unknown reasons. It is possible for some links to image files to no longer be valid. This type of failure will always fail as the link is not a valid link. As you end up with repeatedly failures, manually check some of the URLs to see if they still work by copying the image link and pasting it into a web browser.
 
 7. Open the failures log file within the SimpleJoyArt directory (the name is specified in the script)
 8. Copy the contents of the failures log file
@@ -73,7 +73,7 @@ PowerShell.exe -ExecutionPolicy Bypass -File .\simplejoyart-download.ps1
 ```
 
 The `SimpleJoyArt` directory is created and the images are downloaded into this directory.
-Some files fail to download for unknown reasons. It is possible for some links to no longer be valid. As you end up with repeatedly failures, manually check some of the URLs to see if they still work manually.
+Some files fail to download for unknown reasons. It is possible for some links to image files to no longer be valid. This type of failure will always fail as the link is not a valid link. As you end up with repeatedly failures, manually check some of the URLs to see if they still work by copying the image link and pasting it into a web browser.
 
 8. Open the failures log file within the SimpleJoyArt directory (the name is specified in the script)
 9. Copy the contents of the failures log file
