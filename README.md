@@ -1,5 +1,5 @@
 # SimpleJoyArt
-download public domain images
+download public domain images from the Simple Joy Art spreadsheet
 
 ### as of March 8 2024
 - [X] script on linux: `simplejoyart-download.sh`
