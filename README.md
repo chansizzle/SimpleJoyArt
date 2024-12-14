@@ -1,5 +1,5 @@
 # SimpleJoyArt
-Download public domain images from the Simple Joy Art spreadsheet
+Download public domain images from the Simple Joy Art spreadsheet owned by Libraries of Hope
 
 ## Purpose
 The purpose of this project is to download all of the artwork that Simple Joy Art has published in a spreadsheet. Should the images no longer be available online, you will have your own copy to use for viewing as you desire. Having a local copy is faster to access than accessing through the URLs/links. Once downloaded, the images can be used for any number of purposes, such as:
